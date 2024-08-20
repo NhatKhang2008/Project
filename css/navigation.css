@@ -1,5 +1,5 @@
 .nav {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 75px;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@
   padding-left: 150px;
   padding-right: 150px;
 }
-.nav-button{
+.nav-button {
   display: flex;
   flex-direction: row;
   background-color: var(--second-color);
@@ -22,12 +22,12 @@
   align-items: center;
   cursor: pointer;
 }
-.nav-profile{
+.nav-profile {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.profile{
+.profile {
   border-radius: 50%;
   border-style: solid;
   background-color: var(--primary-color);
@@ -37,30 +37,32 @@
   display: flex;
   align-items: center;
 }
-.profile img{
+.profile img {
   width: 100%;
   height: 100%;
   padding-top: 5px;
 }
-.nav-profile p{
-  color: #212B36;
+.nav-profile p {
+  color: #212b36;
 }
-.nav-button p{
-  color:  #FFFFFF;
+.nav-button p {
+  color: #ffffff;
   padding-right: 10px;
 }
-.nav-button i{
+.nav-button i {
   color: #ffffff;
 }
-.content1{
+.content1 {
   background-image: url("../public/assets/images/bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
-  padding:  64px 144px 64px 144px;
+  gap: 5%;
+  padding: 7%;
   justify-content: space-between;
 }
-.firstpart{
+.firstpart {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,12 +70,12 @@
   gap: 16px;
   max-width: 575px;
 }
-.title1{
+.title1 {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-.title1-button{
+.title1-button {
   display: flex;
   flex-direction: row;
   background-color: var(--second-color);
@@ -84,10 +86,10 @@
   padding: 11px 22px 11px 22px;
   align-items: center;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 165px;
 }
-.avatar1{
+.avatar1 {
   display: flex;
   justify-content: center;
   align-items: end;
@@ -96,22 +98,22 @@
   background: rgba(239, 232, 255, 1);
   border-radius: 300px 300px 32px 32px;
 }
-.avatar1 img{
+.avatar1 img {
   width: 90%;
   height: 90%;
   object-fit: contain;
 }
-.title1-button p{
+.title1-button p {
   padding-right: 14px;
 }
-.title1 .abc{
+.title1 .abc {
   min-width: 550px;
   font-size: 22px;
 }
-.title1 h1{
+.title1 h1 {
   color: var(--primary-color);
   font-size: 80px;
 }
-.title1 h2{
+.title1 h2 {
   font-size: 68px;
 }
