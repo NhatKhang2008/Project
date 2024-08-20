@@ -99,7 +99,7 @@
 .avatar1 img{
   width: 90%;
   height: 90%;
-  object-fit: fill;
+  object-fit: contain;
 }
 .title1-button p{
   padding-right: 14px;
