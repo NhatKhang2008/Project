@@ -1,6 +1,6 @@
 @import url("global.css");
 .achievements{
-    padding: 128px 0px 128px 0px;
+    padding: 7% 0px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +29,16 @@
     justify-content: center;
     gap: 32px;
 }
+.scores-1{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.scores-2{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
 .scores a{
     text-decoration: none;
     color:  rgba(255, 255, 255, 1);
@@ -48,5 +58,5 @@
     background-color: var(--primary-color);
     border-radius: 16px;
     padding: 24px 32px 24px 32px;
-    ;
+    justify-content: center;
 }

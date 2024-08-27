@@ -1,32 +1,152 @@
 /* Tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1207px) {
+@media only screen and (min-width: 768px) and (max-width: 1207px) {
   /* Styles */
+  /* screen 1*/
   .content1 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
   .title1 {
+    padding-top: 20px;
     text-align: center;
     justify-content: center;
   }
   .title1 .title1-button {
+    margin: auto; 
+  }
+  .nav{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  /* screen 2*/
+  .about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title2{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .title2 ul{
     margin: auto;
   }
+  .title2 li{
+    padding-bottom: 10px;
+  }
+  .title2 i{
+    font-size: 50px;
+    padding-right: 50px;
+  }
+  .avatar2{
+    width: 500px;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+  }
+  /* screen 3 */
+  .scores-1{
+    flex-direction: column;
+  }
+  .scores-2{
+    flex-direction: column;
+  }
+  /* screen 4 */
+  .hobbies{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .hobbies-images{
+    flex-direction: column;
+    gap: 0;
+  }
+  .hobbies-text{
+    text-align: center;
+  }
+  .first-column{
+    gap: 64px;
+  }
+  .second-column{
+    gap: 64px;
+  }
+
 }
 /* Mobile */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* Styles */
+  /* screen 1*/
   .content1 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
   .title1 {
+    padding-top: 20px;
     text-align: center;
     justify-content: center;
   }
   .title1 .title1-button {
     margin: auto;
   }
+  .nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /* screen 2*/
+  .about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title2{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .title2 ul{
+    margin: auto;
+  }
+  .title2 li{
+    padding-bottom: 10px;
+  }
+  .title2 i{
+    font-size: 50px;
+    padding-right: 40px;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+  }
+  /* screen 3 */
+  .scores-1{
+    flex-direction: column;
+  }
+  .scores-2{
+    flex-direction: column;
+  }
+  .title3{
+    text-align: center;
+  }
+  /* screen 4 */
+  .hobbies{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .hobbies-images{
+    flex-direction: column;
+    gap: 0;
+  }
+  .hobbies-text{
+    text-align: center;
+  }
+  .first-column{
+    gap: 64px;
+  }
+  .second-column{
+    gap: 64px;
+  }
+
 }

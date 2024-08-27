@@ -2,10 +2,11 @@
 .hobbies{
     display: flex;
     flex-direction: row;
-    padding: 128px 144px 128px 144px;
+    padding: 7% 8%;
     background-image: url("../public/assets/images/bg_preferences.png");
     justify-content: space-between;
     gap: 64px;
+    background-repeat: no-repeat;
 }
 .hobbies-images{
     display: flex;
