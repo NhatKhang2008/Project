@@ -59,4 +59,6 @@
     border-radius: 16px;
     padding: 24px 32px 24px 32px;
     justify-content: center;
+    min-width: 100%;
+    width: fit-content;
 }

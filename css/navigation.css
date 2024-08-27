@@ -68,7 +68,6 @@
   justify-content: center;
   align-items: start;
   gap: 16px;
-  max-width: 575px;
 }
 .title1 {
   display: flex;
@@ -93,8 +92,8 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 720px;
-  width: 500px;
+  height: 100%;
+  width: 65%;
   background: rgba(239, 232, 255, 1);
   border-radius: 300px 300px 32px 32px;
 }
@@ -107,7 +106,6 @@
   padding-right: 14px;
 }
 .title1 .abc {
-  min-width: 550px;
   font-size: 22px;
 }
 .title1 h1 {
