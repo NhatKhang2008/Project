@@ -158,6 +158,9 @@
     flex-direction: column !important;
     width: 100%;
   }
+  .art-1 p{
+    color:rgb(5, 129, 238) !important;
+  }
 
 
 }

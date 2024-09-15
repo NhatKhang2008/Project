@@ -1,0 +1,111 @@
+@import url("global.css");
+.news{
+    background-image: url(../public/assets/bg-2.png);
+    padding: 7% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Author-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.Author-date p{
+    color: var(--primary-color);
+    font-size: 14px;
+}
+.date{
+    color: gray !important;
+}
+.news-text{}
+.news-text h1{
+    font-size: 25px;
+    padding-top: 2%;
+}
+.news-text p{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.news-text a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+.title5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.title5 p{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+}
+.title5 h1{
+    font-size: 43px;
+}
+.news-1{
+    width: 100%;
+    object-fit: contain;
+
+}
+.news-1 img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 !important;
+}
+.news-2{
+    width: 100%;
+}
+.news-2 img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 !important;
+}
+.news-3{
+    width: 100%;
+}
+.news-3 img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 !important;
+}
+.boxes{
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 24px;
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.boxes2{
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 24px;
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.content-news1{
+    max-width: 100%;
+    margin: 0 !important;
+    padding: 2%;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
