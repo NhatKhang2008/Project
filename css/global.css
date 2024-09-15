@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
 }
