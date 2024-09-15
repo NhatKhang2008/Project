@@ -9,6 +9,10 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-color: #6f34fe;
   --second-color: #fca61e;
