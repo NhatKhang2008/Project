@@ -75,6 +75,29 @@
     flex-direction: column !important;
     width: 100%;
   }
+  /* screen 6 */
+  .new-boxes{
+    flex-direction: column !important;
+  }
+  .boxes2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* screen 7 */
+  .contact{
+    flex-direction: column !important;
+  }
+  .my-info{
+    margin-right: 0 !important;
+    align-items: center;
+  }
+  .my-info h1{
+    text-align: center;
+    font-size: 37px !important;
+  }
+   
 
 
 }
@@ -161,6 +184,26 @@
   .art-1 p{
     color:rgb(5, 129, 238) !important;
   }
-
-
+  /* screen 6 */
+  .new-boxes{
+    flex-direction: column !important;
+  }
+  .boxes2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* screen 7 */
+  .contact{
+    flex-direction: column !important;
+  }
+  .my-info{
+    margin-right: 0 !important;
+    align-items: center;
+  }
+  .my-info h1{
+    text-align: center;
+    font-size: 37px !important;
+  }
 }

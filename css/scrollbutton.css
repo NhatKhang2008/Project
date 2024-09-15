@@ -1,0 +1,20 @@
+@import url("global.css");
+.scroll-button{
+    background-color: var(--second-color);
+    border-radius: 50%;
+    border: 0;
+    position: fixed;
+    display: flex;
+    padding: 2%;
+    width: 30px;
+    height: 30px;
+    bottom: 10px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.scroll-button i{
+    color: #fff;
+    font-size: 24px;
+}

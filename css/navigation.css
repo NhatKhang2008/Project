@@ -122,3 +122,6 @@
 .title1 h2 {
   font-size: 68px;
 }
+.title1 a{
+  text-decoration: none;
+}
