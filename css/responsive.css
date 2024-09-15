@@ -13,93 +13,93 @@
     justify-content: center;
   }
   .title1 .title1-button {
-    margin: auto; 
+    margin: auto;
   }
-  .nav{
+  .nav {
     padding-left: 100px;
     padding-right: 100px;
   }
   /* screen 2*/
-  .about{
+  .about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .title2{
+  .title2 {
     padding-top: 20px;
     text-align: center;
     justify-content: center;
   }
-  .title2 ul{
+  .title2 ul {
     margin: auto;
   }
-  .title2 li{
+  .title2 li {
     padding-bottom: 10px;
   }
-  .title2 i{
+  .title2 i {
     font-size: 50px;
     padding-right: 50px;
   }
-  .social-media{
+  .social-media {
     display: flex;
     justify-content: center;
   }
   /* screen 3 */
-  .scores-1{
+  .scores {
     flex-direction: column;
   }
-  .scores-2{
+  .scores-1 {
+    flex-direction: column;
+  }
+  .scores-2 {
     flex-direction: column;
   }
   /* screen 4 */
-  .hobbies{
+  .hobbies {
     flex-direction: column-reverse;
     justify-content: center;
   }
-  .hobbies-images{
+  .hobbies-images {
     flex-direction: column;
     gap: 0;
   }
-  .hobbies-text{
+  .hobbies-text {
     text-align: center;
   }
-  .first-column{
+  .first-column {
     gap: 64px;
   }
-  .second-column{
+  .second-column {
     gap: 64px;
   }
   /* screen 5*/
-  .art-row{
+  .art-row {
     display: flex;
     flex-direction: column !important;
     width: 100%;
   }
   /* screen 6 */
-  .new-boxes{
+  .new-boxes {
     flex-direction: column !important;
   }
-  .boxes2{
+  .boxes2 {
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   /* screen 7 */
-  .contact{
+  .contact {
     flex-direction: column !important;
   }
-  .my-info{
+  .my-info {
     margin-right: 0 !important;
     align-items: center;
   }
-  .my-info h1{
+  .my-info h1 {
     text-align: center;
     font-size: 37px !important;
   }
-   
-
-
 }
 /* Mobile */
 @media only screen and (max-width: 768px) {
@@ -123,86 +123,87 @@
     padding-right: 50px;
   }
   /* screen 2*/
-  .about{
+  .about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .title2{
+  .title2 {
     padding-top: 20px;
     text-align: center;
     justify-content: center;
   }
-  .title2 ul{
+  .title2 ul {
     margin: auto;
   }
-  .title2 li{
+  .title2 li {
     padding-bottom: 10px;
   }
-  .title2 i{
+  .title2 i {
     font-size: 50px;
     padding-right: 40px;
   }
-  .social-media{
+  .social-media {
     display: flex;
     justify-content: center;
   }
   /* screen 3 */
-  .scores-1{
+
+  .scores-1,
+  .scores,
+  .scores-2 {
     flex-direction: column;
   }
-  .scores-2{
-    flex-direction: column;
-  }
-  .title3{
+
+  .title3 {
     text-align: center;
   }
   /* screen 4 */
-  .hobbies{
+  .hobbies {
     flex-direction: column-reverse;
     justify-content: center;
   }
-  .hobbies-images{
+  .hobbies-images {
     flex-direction: column;
     gap: 0;
   }
-  .hobbies-text{
+  .hobbies-text {
     text-align: center;
   }
-  .first-column{
+  .first-column {
     gap: 64px;
   }
-  .second-column{
+  .second-column {
     gap: 64px;
   }
   /* screen 5 */
-  .art-row{
+  .art-row {
     display: flex;
     flex-direction: column !important;
     width: 100%;
   }
-  .art-1 p{
-    color:rgb(5, 129, 238) !important;
+  .art-1 p {
+    color: rgb(5, 129, 238) !important;
   }
   /* screen 6 */
-  .new-boxes{
+  .new-boxes {
     flex-direction: column !important;
   }
-  .boxes2{
+  .boxes2 {
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   /* screen 7 */
-  .contact{
+  .contact {
     flex-direction: column !important;
   }
-  .my-info{
+  .my-info {
     margin-right: 0 !important;
     align-items: center;
   }
-  .my-info h1{
+  .my-info h1 {
     text-align: center;
     font-size: 37px !important;
   }
